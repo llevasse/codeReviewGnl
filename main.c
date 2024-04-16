@@ -5,8 +5,10 @@
 #include "get_next_line.h"
 
 int main(int argc, char **argv){
-	if (argc == 1)
+	if (argc == 1){
+		printf("Please pass a file as an argument to this program\n");
 		return (0);
+	}
 	int	i = 1;
 	int	fd;
 	char	*s;
